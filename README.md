@@ -2,9 +2,9 @@
 
 # gutlog
 
-I kept getting bloating and brain fog after meals but could never pin down which food was causing it. Tried elimination diets, forgot what I eliminated, gave up, started over. Eventually I just built this instead.
+you ever eat something and then feel terrible 3 hours later and have absolutely no idea which thing did it? was it the cheese? the bread? that suspicious gas station sushi? who knows.
 
-gutlog is a PWA that runs entirely in your browser. You log what you eat, log when you feel bad, and after enough data it runs Fisher's exact test on every food/symptom pair to tell you which ones actually correlate. No account, no server, no subscription. Your data stays in IndexedDB on your device.
+gutlog does. log what you eat, log when you feel bad, and it runs actual statistics on the correlation. not vibes, not guessing. runs entirely in your browser, no server, no account, your diet stays between you and your IndexedDB.
 
 ## What it actually does
 
