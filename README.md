@@ -18,6 +18,33 @@ gutlog does. log what you eat, log when you feel bad, and it runs actual statist
 
 **Export and import.** Download your data as JSON. Import it back on another device or browser. That is the entire backup strategy and it works fine.
 
+
+## example
+
+```
+$ # after 2 weeks of logging meals and symptoms:
+
+gutlog analyze
+
+food             symptom        p-value    correlation
+dairy            bloating       0.003      strong
+wheat            brain fog      0.018      moderate
+eggs             headache       0.421      none
+coffee           anxiety        0.031      moderate
+alcohol          fatigue        0.008      strong
+
+significant correlations (p < 0.05): 4 found
+suggestion: try eliminating dairy for 2 weeks and log again
+```
+
+```mermaid
+graph LR
+    M[Log meal] --> DB[(IndexedDB)]
+    S[Log symptom] --> DB
+    DB --> A[Fisher exact test on every pair]
+    A --> R[Ranked correlations by p-value]
+```
+
 ## Reading the results
 
 After a week or two of logging, you run the analysis and get a table like:
