@@ -1,6 +1,12 @@
-![CI](https://github.com/zandenkane/gutlog/actions/workflows/ci.yml/badge.svg)
+<p align="center">
+  <img src="assets/banner.png" alt="gutlog" width="100%">
+</p>
 
-# gutlog
+<p align="center">
+  <a href="https://github.com/zandenkane/gutlog/actions/workflows/ci.yml"><img src="https://github.com/zandenkane/gutlog/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+  <img src="https://img.shields.io/badge/typescript-3178C6?style=flat&logo=typescript&logoColor=white" alt="typescript">
+  <img src="https://img.shields.io/badge/license-MIT-green" alt="MIT License">
+</p>
 
 you ever eat something and then feel terrible 3 hours later and have absolutely no idea which thing did it? was it the cheese? the bread? that suspicious gas station sushi? who knows.
 
