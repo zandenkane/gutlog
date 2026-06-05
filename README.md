@@ -25,6 +25,12 @@ gutlog does. log what you eat, log when you feel bad, and it runs actual statist
 **Export and import.** Download your data as JSON. Import it back on another device or browser. That is the entire backup strategy and it works fine.
 
 
+
+<p align="center">
+  <img src="assets/heatmap.png" alt="food / symptom correlation heatmap" width="90%">
+</p>
+
+
 ## example
 
 ```
